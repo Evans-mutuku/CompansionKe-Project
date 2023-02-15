@@ -4,35 +4,35 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="signUp.css">
-    <script src="signUp.js" type="module" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.'0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="signup.css">
+    <!-- <script type="module" src="signup.js" defer></script> -->
+    <script type="module" src="signup.js" defer></script>
     <title>Login / Register</title>
+
 </head>
 
 <body>
-    <header>
-        <nav class="nav">
-            <a href="/index.html">
-                <img style="width: 100px; height: 70px;" src="images/plp-logo.png" alt="">
-            </a>
+    <nav class="nav">
+        <a href="project.html">
+            <img style="width: 100px; height:70px;" src="plp.jpg" alt>
+        </a>
+        <div class="hamburger">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </div>
+        <div class="nav_link hide">
+            <a href="project.html">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a href="signup.html">Login</a>
+        </div>
 
-            <div class="hamburger">
-                <span class="line"></span>
-                <span class="line"></span>
-                <span class="line"></span>
-            </div>
+    </nav>
 
-            <div class="nav__link hide">
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Contact</a>
-                <a href="signUp.html">Login</a>
-            </div>
-        </nav>
-    </header>
-
+    
     <div class="login-container">
         <div id="main">
             <h1>Sign In</h1>  
@@ -54,6 +54,7 @@
             <button id="return-btn">Return to Login</button>
         </div>
     </div>
+    
 </body>
 
 </html>
